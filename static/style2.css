@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to right, #9dd49d , #dda65f);
+}
+
+.btn {
+    background-color: rgb(146, 32, 17);
+    border: none;
+    color: rgb(247, 211, 170);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 43.5%;
+    width: 15%;
+    border-radius: 15px;
+}
+  
+.btn1 {
+    background-color: #1d3d1c;
+    border: none;
+    color: rgb(247, 211, 170);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 46%;
+    width: 10%;
+    border-radius: 15px;
+}
+    
+.p1{
+    font-family: "Cursive","Brush Script MT";
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    transform: translateY(-50%);
+    left: 44%;
+    font-size: 40px;
+    color: rgb(9, 70, 105);
+}
+    
+.p2{
+    position: absolute;
+    top: 42.5%;
+    width: 100%;
+    transform: translateY(-50%);
+    left: 42.5%;
+    font-size: 25px;
+    color: rgb(12, 55, 63);
+}
+    
+    
+.btn:hover .btn1:hover{
+    background-color: rgb(146, 32, 17);
+}
